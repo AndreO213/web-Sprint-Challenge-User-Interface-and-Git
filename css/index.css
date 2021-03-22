@@ -79,6 +79,31 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.nav-bar {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.jumbo {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,12 +129,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box {
+    background-color:teal ;
+}
+
+.box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+
+.box:nth-of-type(8) {
+    background-color: hotpink;
+}
+
+.box:nth-of-type(9) {
+    background-color: indigo;
+}
+
+.box:nth-of-type(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +207,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page CSS */
+
+.jumbo-about {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.about-page {
+    width: 95%;
+}
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    border-top: 1px dotted black;
+    box-sizing: border-box;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.card {
+    width: 49%;
+    border-bottom: 1px dotted black;
+    padding-top: 5%;
+}
+
+button {
+    background-color: white;
+    border: black 2.5px solid; 
+    border-radius: .4rem;
+    padding: 1.4%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+h2 {
+    margin-top: 2%;
+}
+
+img {
+    box-sizing:border-box;
+}
+
+.work-together {
+    
+    padding-bottom: 4%;
 }
